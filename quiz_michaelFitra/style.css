@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container .logo {
+    margin: 0;
+}
+
+h1, h3, h4, h5, h6 {
+    color: #333;
+}
+
+.cv-table {
+    width: 100%;
+}
+
+.image-cell {
+    width: 200px;
+    text-align: center;
+    padding-right: 23px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.grey {
+    color: #D4D2CF;
+}
+
+.logo{
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: #333;
+    }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* CSS untuk halaman Contact Us */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.ratatengah {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
